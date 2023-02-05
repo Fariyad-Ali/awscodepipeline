@@ -1,0 +1,12 @@
+cloud:
+  aws:
+    region:
+      static: ap-south-1
+      auto: false
+    credentials:
+      access-key: AKIAWR2EGDPKNIK4VUOI
+      secret-key: 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
+    sqs:
+      endpoint: https://sqs.ap-south-1.amazonaws.com/450577701844/myqueue
+    sns:
+      topic: arn:aws:sns:ap-south-1:450577701844:SNSDemo
